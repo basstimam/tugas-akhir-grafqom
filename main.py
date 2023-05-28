@@ -2,16 +2,17 @@ from ursina import *
 from ursina.shaders import lit_with_shadows_shader
 
 
-# set resolution
+
 app = Ursina()
 
+#resolution
 window.width = 1280
 window.height = 720
 window.fullscreen = False
 window.exit_button.visible = True
 window.title = 'Dragon Mystic Forest'
 
-# Membuat jendela
+
 
 Sky(texture='sky_default')
 
@@ -26,7 +27,7 @@ tree3.rotation_x = 90
 tree4.rotation_x = 90
 
 
-camera.fov = 90
+camera.fov = 100
 
 
 
